@@ -39,3 +39,32 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+/* Blog Section Styles */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.post h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.post a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
