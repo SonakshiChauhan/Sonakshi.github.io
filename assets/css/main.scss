@@ -10,7 +10,7 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+// @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -25,7 +25,7 @@
 @import "notices";
 @import "masthead";
 @import "navigation";
-@import "footer";
+// @import "footer";
 @import "syntax";
 
 @import "forms";
