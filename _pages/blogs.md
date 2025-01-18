@@ -26,12 +26,12 @@ permalink: /blogs/
 
   <hr>
 
-  <!-- Psychological Section -->
+  <!-- Philosophical Section -->
   <div class="blog-category">
     <h2>Psychological</h2>
     <div class="blog-list">
       {% for post in site.posts %}
-        {% if post.category == "psychology" %}
+        {% if post.category == "philosophical" %}
         <div class="blog-item">
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
           <p>{{ post.excerpt | strip_html }}</p>
