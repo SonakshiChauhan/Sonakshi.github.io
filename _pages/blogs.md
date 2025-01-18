@@ -3,8 +3,11 @@ layout: default
 title: "Blog Categories"
 permalink: /blogs/
 ---
-<h1>Choose a Blog Category</h1>
-<ul>
-  <li><a href="/blog/technical/">Technical Blogs</a></li>
-  <li><a href="/blog/philosophical/">Philosophical Blogs</a></li>
-</ul>
+<div class="blog-boxes">
+  <div class="blog-box technical">
+    <h2>Technical</h2>
+  </div>
+  <div class="blog-box psychology">
+    <h2>Psychology</h2>
+  </div>
+</div>
