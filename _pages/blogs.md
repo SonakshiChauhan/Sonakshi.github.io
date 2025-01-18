@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blog Categories"
-permalink: /blog/
+permalink: /blogs/
 ---
 <h1>Choose a Blog Category</h1>
 <ul>
