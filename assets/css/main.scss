@@ -104,28 +104,12 @@ ul li {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
-header {
+header.site-header {
     background-color: #000000; /* Black background */
-    color: #ffffff; /* White text for contrast */
+    color: #ffffff; /* White text */
 }
 
-/* Change footer background to black */
-footer {
+footer.site-footer {
     background-color: #000000; /* Black background */
-    color: #ffffff; /* White text for contrast */
+    color: #ffffff; /* White text */
 }
-
-/* Optional: Adjust header and footer links */
-header a, footer a {
-    color: #ffffff; /* White links */
-}
-// ul li a {
-//     background-color: #f0f0f0;
-//     padding: 10px 20px;
-//     border-radius: 5px;
-// }
-
-// ul li a:hover {
-//     background-color: #0073e6;
-//     color: #fff;
-// }
