@@ -127,77 +127,45 @@ ul li {
 .blog-item a:hover {
   text-decoration: underline;
 }
+.about-container {
+  display: flex; /* Flexbox for alignment */
+  align-items: flex-start; /* Align items at the top */
+  gap: 40px; /* Space between photo and text */
+  max-width: 1200px; /* Container width */
+  margin: 0 auto; /* Center the container */
+  padding: 40px 20px; /* Add padding */
+}
 
-// .about-section {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   text-align: center;
-//   padding: 50px 20px;
-// }
+.about-photo img {
+  width: 300px; /* Set the image width */
+  height: 300px; /* Set the image height */
+  object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+  border-radius: 10px; /* Optional: rounded corners */
+  border: 5px solid #ccc; /* Optional: border for styling */
+}
 
-// // .profile-photo img {
-// //   border-radius: 50%;
-// //   width: 200px;
-// //   height: 200px;
-// //   object-fit: cover;
-// //   margin-bottom: 20px;
-// // }
+.about-text {
+  max-width: 800px; /* Restrict text width */
+  line-height: 1.6; /* Improve readability */
+}
 
-// // .about-description {
-// //   max-width: 800px;
-// //   font-size: 1rem;
-// //   line-height: 1.6;
-// //   color: #333; /* Adjust text color as per your theme */
-// // }
+.about-text h1,
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
 
-// .about-description h1, .about-description h2 {
-//   color: #555; /* Adjust heading color */
-// }
+.about-text p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333; /* Optional: Text color */
+}
 
-// .about-description h1 {
-//   font-size: 2.5rem;
-//   margin-bottom: 20px;
-// }
+.about-text ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
 
-// .about-description h2 {
-//   font-size: 1.8rem;
-//   margin-top: 30px;
-//   margin-bottom: 15px;
-// }
-
-// .about-description ul {
-//   list-style: none;
-//   padding: 0;
-//   margin: 0;
-// }
-
-// .about-description ul li {
-//   margin-bottom: 10px;
-// }
-
-// .about-description a {
-//   color: #007bff;
-//   text-decoration: none;
-// }
-
-// .about-description a:hover {
-//   text-decoration: underline;
-// }
-
-// .profile-photo img {
-//   border-radius: 15%; /* Adjust as needed for square or rounded corners */
-//   width: 300px; /* Adjust width */
-//   height: 300px; /* Adjust height */
-//   object-fit: cover;
-//   margin: 20px auto;
-//   display: block;
-//   border: 5px solid #ccc; /* Optional: border for styling */
-// }
-
-// .about-description {
-//   max-width: 800px;
-//   margin: 0 auto;
-//   font-size: 1rem;
-//   line-height: 1.6;
-// }
+.about-text ul li {
+  margin-bottom: 10px;
+}
