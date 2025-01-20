@@ -4,15 +4,14 @@ title: "About Me"
 author_profile: false
 ---
 
-<div class="about-section">
-  <div class="about-content">
+<div class="about-container">
     <!-- Profile Photo -->
-    <div class="profile-photo">
+    <div class="about-photo">
       <img src="/images/Prof_photo.jpeg" alt="Sonakshi Chauhan">
     </div>
 
     <!-- About Description -->
-    <div class="about-description">
+    <div class="about-text">
       <h1>About Me</h1>
       <p>Hello! I'm a young researcher who is interested in understanding and interpreting neural networks. Currently a research intern at the <code>Pr(Ai)<sup>2</sup>R</code> group. My absolute love lies in Causality, Interpretability, and everything that makes neural networks more understandable to me. I also have experience in natural language processing and computer vision systems. I'm fond of reading fiction novels apart from research papers and blogs. Coffee, food, public speaking, and travelling are things I’m always looking out for. I’m crazy about collaborating and working with new people.</p>
 
@@ -37,5 +36,4 @@ author_profile: false
         <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/sonakshi-chauhan/" target="_blank">Sonakshi Chauhan</a></li>
       </ul>
     </div>
-  </div>
 </div>
