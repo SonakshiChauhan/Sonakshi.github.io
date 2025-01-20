@@ -1,16 +1,8 @@
 ---
 ---
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
-
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+/* Base Imports */
+@import "vendor/breakpoint/breakpoint"; // Media query mixins
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -39,33 +31,31 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-/* Blog Section Styles */
+
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff; /* White background */
-    color: #000000; /* Black text */
-}
-body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 ul li {
-    font-size: 18px;
+  font-size: 18px;
 }
-/* Center the blog boxes */
+
 /* Blog Section Styling */
 .blog-section {
   max-width: 1000px;
@@ -127,9 +117,11 @@ ul li {
 .blog-item a:hover {
   text-decoration: underline;
 }
+
+/* About Section Styling */
 .about-container {
   display: flex; /* Flexbox layout */
-  align-items: center; /* Align vertically at the center */
+  align-items: flex-start; /* Align image at the top of the text */
   gap: 40px; /* Space between photo and text */
   max-width: 1200px; /* Container width */
   margin: 0 auto; /* Center the container */
@@ -146,6 +138,7 @@ ul li {
 }
 
 .about-text {
+  flex: 1; /* Allow text to take up remaining space */
   max-width: 800px; /* Restrict text width */
   line-height: 1.6; /* Improve readability */
 }
@@ -171,6 +164,7 @@ ul li {
   margin-bottom: 10px;
 }
 
+/* Responsive Adjustments */
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column; /* Stack image and text vertically on small screens */
@@ -179,5 +173,10 @@ ul li {
 
   .about-photo img {
     width: 200px; /* Adjust image size for smaller screens */
+    margin: 0 auto; /* Center the image */
+  }
+
+  .about-text {
+    text-align: center; /* Center-align text on small screens */
   }
 }
