@@ -1,16 +1,13 @@
 ---
 permalink: /
 title: "Welcome to My Homepage"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+author_profile: false
 ---
 
 <div class="about-section">
   <!-- Profile Photo -->
   <div class="profile-photo">
-    <img src="/images/Prof_photo.jpeg" alt="Sonakshi Chauhan">
+    <img src="/assets/images/profile-photo.jpg" alt="Sonakshi Chauhan">
   </div>
 
   <!-- About Description -->
