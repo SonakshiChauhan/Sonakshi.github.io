@@ -8,6 +8,14 @@ author_profile: false
     <!-- Profile Photo -->
     <div class="about-photo">
       <img src="/images/Prof_photo.jpeg" alt="Sonakshi Chauhan">
+        <div class="social-icons">
+        <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://linkedin.com/in/sonakshi-chauhan/" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+        <a href="mailto:sonakshichauhan1402@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa fa-github"></i></a>
+        <a href="https://scholar.google.com/" target="_blank" aria-label="Google Scholar"><i class="fa fa-graduation-cap"></i></a>
+        <a href="https://lesswrong.com/" target="_blank" aria-label="LessWrong"><i class="fa fa-lightbulb"></i></a>
+      </div>
     </div>
 
     <!-- About Description -->
