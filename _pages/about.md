@@ -10,7 +10,7 @@ redirect_from:
 <div class="about-section">
   <!-- Profile Photo -->
   <div class="profile-photo">
-    <img src="/images/Prof-photo.ipeg" alt="Sonakshi Chauhan">
+    <img src="/images/Prof_photo.jpeg" alt="Sonakshi Chauhan">
   </div>
 
   <!-- About Description -->
