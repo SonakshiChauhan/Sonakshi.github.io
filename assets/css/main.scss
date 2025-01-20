@@ -128,76 +128,76 @@ ul li {
   text-decoration: underline;
 }
 
-.about-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 50px 20px;
-}
+// .about-section {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   text-align: center;
+//   padding: 50px 20px;
+// }
+
+// // .profile-photo img {
+// //   border-radius: 50%;
+// //   width: 200px;
+// //   height: 200px;
+// //   object-fit: cover;
+// //   margin-bottom: 20px;
+// // }
+
+// // .about-description {
+// //   max-width: 800px;
+// //   font-size: 1rem;
+// //   line-height: 1.6;
+// //   color: #333; /* Adjust text color as per your theme */
+// // }
+
+// .about-description h1, .about-description h2 {
+//   color: #555; /* Adjust heading color */
+// }
+
+// .about-description h1 {
+//   font-size: 2.5rem;
+//   margin-bottom: 20px;
+// }
+
+// .about-description h2 {
+//   font-size: 1.8rem;
+//   margin-top: 30px;
+//   margin-bottom: 15px;
+// }
+
+// .about-description ul {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// .about-description ul li {
+//   margin-bottom: 10px;
+// }
+
+// .about-description a {
+//   color: #007bff;
+//   text-decoration: none;
+// }
+
+// .about-description a:hover {
+//   text-decoration: underline;
+// }
 
 // .profile-photo img {
-//   border-radius: 50%;
-//   width: 200px;
-//   height: 200px;
+//   border-radius: 15%; /* Adjust as needed for square or rounded corners */
+//   width: 300px; /* Adjust width */
+//   height: 300px; /* Adjust height */
 //   object-fit: cover;
-//   margin-bottom: 20px;
+//   margin: 20px auto;
+//   display: block;
+//   border: 5px solid #ccc; /* Optional: border for styling */
 // }
 
 // .about-description {
 //   max-width: 800px;
+//   margin: 0 auto;
 //   font-size: 1rem;
 //   line-height: 1.6;
-//   color: #333; /* Adjust text color as per your theme */
 // }
-
-.about-description h1, .about-description h2 {
-  color: #555; /* Adjust heading color */
-}
-
-.about-description h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.about-description h2 {
-  font-size: 1.8rem;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-
-.about-description ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.about-description ul li {
-  margin-bottom: 10px;
-}
-
-.about-description a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.about-description a:hover {
-  text-decoration: underline;
-}
-
-.profile-photo img {
-  border-radius: 15%; /* Adjust as needed for square or rounded corners */
-  width: 300px; /* Adjust width */
-  height: 300px; /* Adjust height */
-  object-fit: cover;
-  margin: 20px auto;
-  display: block;
-  border: 5px solid #ccc; /* Optional: border for styling */
-}
-
-.about-description {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 1rem;
-  line-height: 1.6;
-}
